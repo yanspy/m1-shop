@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test</title>
+	<!--Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	 <!--Styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<!-- <link rel="stylesheet" href="css/media.css"> -->
+</head>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<nav class="header__nav">
+					<div class="header__logo">
+						<img src="img/logo.png" alt="">
+					</div>
+				    <ul class="header__list">
+				    	<li class="header__item">
+				    		<a href="" class="header__link upper">Каталог</a>
+				    	</li>
+				    	<li class="header__item">
+				    		<a href="" class="header__link upper">Преимущества</a>
+				    	</li>
+				    	<li class="header__item">
+				    		<a href="" class="header__link upper">Отзывы</a>
+				    	</li>
+				    	<li class="header__item">
+				    		<a href="" class="header__link upper">Как заказать</a>
+				    	</li>
+				    </ul>
+				</nav>
+			</div>
+		</div>
+		<div class="header__content">
+			<div class="container">
+				<div class="header__head">
+					<p class="header__above">Женские кожаные портупеи</p>
+					<h1>Dr.Harness</h1>
+				</div>
+				<div class="header__price">
+					<p class="header__discont upper">Любая модель со скидкой 50%</p>
+					<p class="header__price-total">всего за <span class="price-total">2990р.</span></p>
+				</div>
+				<div class="header__btns">
+					<button class="header__btn upper">Повседневные портупеи</button>
+					<button class="header__btn upper">Эротические портупеи</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="hit">
+			<div class="container">
+				<h2 class="upper">Хит №1 в мире – модные жеские портупеи</h2>
+				<div class="hit__uderheader">
+					<p class="hit__uderheader-text">
+						Как и все кожаные аксессуары, портупея находится сегодня на пике востребованности в мире моды, даря своей обладательнице внимание и уверенность в себе.
+					</p>
+					<p class="hit__uderheader-text">
+						Многообразие видов портупей – это как Характер каждой девушки: от портупеи из тонких ремешков для романтичных и женственных натур, до сложных сплетений из средних и широких - для дерзких и раскрепощенных. 
+					</p>                    
+				</div>
+			</div>
+			<img src="img/hit-photos.jpg" alt="" class="hit-img">
+		</div>
+		<div class="sizes">
+			<div class="container">
+				<h2 class="upper">Таблица размеров</h2>
+				<table class="sizes__table" cellspacing="0">
+					<tr>
+						<td>Международный</td>
+						<td>XS</td>
+						<td>S</td>
+						<td>M</td>
+						<td>L</td>
+						<td>XL</td>
+						<td>XXL</td>
+					</tr>
+					<tr>
+						<td>Российский</td>
+						<td>40</td>
+						<td>42</td>
+						<td>44/46</td>
+						<td>48/50</td>
+						<td>52/54</td>
+						<td>56</td>
+					</tr>
+					<tr>
+						<td>Бедра (см)</td>
+						<td>84-92</td>
+						<td>92-95</td>
+						<td>96-101</td>
+						<td>102-108</td>
+						<td>109-116</td>
+						<td>117-121</td>
+					</tr>
+					<tr>
+						<td>Талия (см)</td>
+						<td>60-65</td>
+						<td>66-69</td>
+						<td>70-77</td>
+						<td>78-85</td>
+						<td>86-95</td>
+						<td>96-102</td>
+					</tr>
+					<tr>
+						<td>Грудь (см)</td>
+						<td>74-80</td>
+						<td>82-85</td>
+						<td>86-93</td>
+						<td>94-102</td>
+						<td>103-113</td>
+						<td>114-119</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="catalog">
+			<div class="container">
+				<h2 class="upper">Каталог</h2>
+				<div class="catalog__switch">
+					<button id="casual-btn" show="casual-list" class="catalog__switch-btn upper active">Повседневные протупеи</button>
+					<button id="erotic-btn" show="erotic-list" class="catalog__switch-btn upper">Эротические протупеи</button>
+				</div>
+				<ul class="catalog__list visible" id="casual-list">
+					<li class="catalog__item">
+						<img src="img/catalog-card-1.jpg" alt="" class="catalog__item-img">
+						<div class="catalog__item-discont">-<span class="discont">53</span>%</div>
+						<h4>Портупея "Пеппи"</h4>
+						<div class="catalog__sizes">
+							<a class="catalog__sizes-opt selected">XS</a>
+							<a class="catalog__sizes-opt">S</a>
+							<a class="catalog__sizes-opt">M</a>
+							<a class="catalog__sizes-opt absent">L</a>
+							<a class="catalog__sizes-opt absent">XL</a>
+							<a class="catalog__sizes-opt">XXL</a>
+						</div>
+						<div class="catalog__colors">
+							<a class="catalog__colors-opt" color="#ff0000"></a>
+							<a class="catalog__colors-opt" color="#1e1e1e"></a>
+						</div>
+						<div class="catalog__price">
+							<p class="catalog__price-old"><span class="oldPrice">5000</span> р.</p>
+							<p class="catalog__price-cur"><span class="curPrice">2990</span> р.</p>
+						</div>
+						<button class="catalog__order-btn upper">Заказать</button>
+					</li>
+					<li class="catalog__item">
+						<img src="img/catalog-card-1.jpg" alt="" class="catalog__item-img">
+						<div class="catalog__item-discont">-<span class="discont">53</span>%</div>
+						<h4>Портупея "Пеппи"</h4>
+						<div class="catalog__sizes">
+							<a class="catalog__sizes-opt selected">XS</a>
+							<a class="catalog__sizes-opt">S</a>
+							<a class="catalog__sizes-opt">M</a>
+							<a class="catalog__sizes-opt absent">L</a>
+							<a class="catalog__sizes-opt absent">XL</a>
+							<a class="catalog__sizes-opt">XXL</a>
+						</div>
+						<div class="catalog__colors">
+							<a class="catalog__colors-opt" color="#ff0000"></a>
+						</div>
+						<div class="catalog__price">
+							<p class="catalog__price-old"><span class="oldPrice">4990</span> р.</p>
+							<p class="catalog__price-cur"><span class="curPrice">2990</span> р.</p>
+						</div>
+						<button class="catalog__order-btn upper">Заказать</button>
+					</li>
+					<li class="catalog__item">
+						<img src="img/catalog-card-1.jpg" alt="" class="catalog__item-img">
+						<div class="catalog__item-discont">-<span class="discont">53</span>%</div>
+						<h4>Портупея "Пеппи"</h4>
+						<div class="catalog__sizes">
+							<a class="catalog__sizes-opt selected">XS</a>
+							<a class="catalog__sizes-opt">S</a>
+							<a class="catalog__sizes-opt">M</a>
+							<a class="catalog__sizes-opt absent">L</a>
+							<a class="catalog__sizes-opt absent">XL</a>
+							<a class="catalog__sizes-opt">XXL</a>
+						</div>
+						<div class="catalog__colors">
+							<a class="catalog__colors-opt" color="#ff0000"></a>
+						</div>
+						<div class="catalog__price">
+							<p class="catalog__price-old"><span class="oldPrice">4990</span> р.</p>
+							<p class="catalog__price-cur"><span class="curPrice">2990</span> р.</p>
+						</div>
+						<button class="catalog__order-btn upper">Заказать</button>
+					</li>
+					<li class="catalog__item">
+						<img src="img/catalog-card-1.jpg" alt="" class="catalog__item-img">
+						<div class="catalog__item-discont">-<span class="discont">53</span>%</div>
+						<h4>Портупея "Пеппи"</h4>
+						<div class="catalog__sizes">
+							<a class="catalog__sizes-opt selected">XS</a>
+							<a class="catalog__sizes-opt">S</a>
+							<a class="catalog__sizes-opt">M</a>
+							<a class="catalog__sizes-opt absent">L</a>
+							<a class="catalog__sizes-opt absent">XL</a>
+							<a class="catalog__sizes-opt">XXL</a>
+						</div>
+						<div class="catalog__colors">
+							<a class="catalog__colors-opt" color="#ff0000"></a>
+						</div>
+						<div class="catalog__price">
+							<p class="catalog__price-old"><span class="oldPrice">4990</span> р.</p>
+							<p class="catalog__price-cur"><span class="curPrice">2990</span> р.</p>
+						</div>
+						<button class="catalog__order-btn upper">Заказать</button>
+					</li>
+				</ul>
+				<ul class="catalog__list" id="erotic-list">
+					<li class="catalog__item">
+						<img src="img/catalog-card-1.jpg" alt="" class="catalog__item-img">
+						<div class="catalog__item-discont">-<span class="discont">53</span>%</div>
+						<h4>Портупея "Пеппи"</h4>
+						<div class="catalog__sizes">
+							<a class="catalog__sizes-opt selected">XS</a>
+							<a class="catalog__sizes-opt">S</a>
+							<a class="catalog__sizes-opt">M</a>
+							<a class="catalog__sizes-opt absent">L</a>
+							<a class="catalog__sizes-opt absent">XL</a>
+							<a class="catalog__sizes-opt">XXL</a>
+						</div>
+						<div class="catalog__colors">
+							<a class="catalog__colors-opt" color="#ff0000"></a>
+							<a class="catalog__colors-opt" color="#1e1e1e"></a>
+						</div>
+						<div class="catalog__price">
+							<p class="catalog__price-old"><span class="oldPrice">4990</span> р.</p>
+							<p class="catalog__price-cur"><span class="curPrice">2990</span> р.</p>
+						</div>
+						<button class="catalog__order-btn upper">Заказать</button>
+					</li>
+					<li class="catalog__item">
+						<img src="img/catalog-card-1.jpg" alt="" class="catalog__item-img">
+						<div class="catalog__item-discont">-<span class="discont">53</span>%</div>
+						<h4>Портупея "Пеппи"</h4>
+						<div class="catalog__sizes">
+							<a class="catalog__sizes-opt selected">XS</a>
+							<a class="catalog__sizes-opt">S</a>
+							<a class="catalog__sizes-opt">M</a>
+							<a class="catalog__sizes-opt absent">L</a>
+							<a class="catalog__sizes-opt absent">XL</a>
+							<a class="catalog__sizes-opt">XXL</a>
+						</div>
+						<div class="catalog__colors">
+							<a class="catalog__colors-opt" color="#ff0000"></a>
+						</div>
+						<div class="catalog__price">
+							<p class="catalog__price-old"><span class="oldPrice">4990</span> р.</p>
+							<p class="catalog__price-cur"><span class="curPrice">2990</span> р.</p>
+						</div>
+						<button class="catalog__order-btn upper">Заказать</button>
+					</li>
+					<li class="catalog__item">
+						<img src="img/catalog-card-1.jpg" alt="" class="catalog__item-img">
+						<div class="catalog__item-discont">-<span class="discont">53</span>%</div>
+						<h4>Портупея "Пеппи"</h4>
+						<div class="catalog__sizes">
+							<a class="catalog__sizes-opt selected">XS</a>
+							<a class="catalog__sizes-opt">S</a>
+							<a class="catalog__sizes-opt">M</a>
+							<a class="catalog__sizes-opt absent">L</a>
+							<a class="catalog__sizes-opt absent">XL</a>
+							<a class="catalog__sizes-opt">XXL</a>
+						</div>
+						<div class="catalog__colors">
+							<a class="catalog__colors-opt" color="#ff0000"></a>
+						</div>
+						<div class="catalog__price">
+							<p class="catalog__price-old"><span class="oldPrice">4990</span> р.</p>
+							<p class="catalog__price-cur"><span class="curPrice">2990</span> р.</p>
+						</div>
+						<button class="catalog__order-btn upper">Заказать</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="order">
+			<div class="container">
+				<h2 class="upper">Как заказать?</h2>
+				<ul class="order__steps">
+					<li class="order__step">
+						<div class="order__step-circle"></div>
+						<p class="order__step-text">
+							Вы оформляете заказ на нашем сайте
+						</p>
+					</li>
+					<li class="order__step">
+						<div class="order__step-circle"></div>
+						<p class="order__step-text">
+							Менеджр перезвонит для уточнения деталей заказа
+						</p>
+					</li>
+					<li class="order__step">
+						<div class="order__step-circle"></div>
+						<p class="order__step-text">
+							В блежайшее время отправляем ваш заказ
+						</p>
+					</li>
+					<li class="order__step">
+						<div class="order__step-circle"></div>
+						<p class="order__step-text">
+							Вы оплачиваете заказ при получении
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<div class="order__popup">
+		<div class="popup-inner">
+			<img src="img/catalog-card-1.jpg" alt="" class="order__popup-img">
+			<div class="order__popup-info">
+				<h4 class="order__popup-head"></h4>
+				<div class="order__popup-price">
+					<p class="catalog__price-old"><span class="oldPrice"></span> р.</p>
+					<p class="catalog__price-cur"><span class="curPrice"></span> р.</p>
+				</div>
+				<form action="" class="order__popup-form">
+					<div class="order__popup-select-wrap">
+						<select name="popup-size" id="" class="order__popup-select">
+							<option value="XS">XS</option>
+							<option value="S">S</option>
+							<option value="M">M</option>
+							<option value="L">L</option>
+							<option value="XL">XL</option>
+							<option value="XXL">XXL</option>
+						</select>
+					</div>
+					<input type="name" class="order__popup-inp" placeholder="Введите ваше имя">
+					<input type="phone" class="order__popup-inp" placeholder="Введите ваш телефон">
+					<button type="submit" class="catalog__order-btn order__popup-btn upper">Оформить заказ</button>
+				</form>
+			</div>
+			<a class="popup-close"></a>
+		</div>
+		
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>									

@@ -1,0 +1,21 @@
+@media screen and (min-width: 320px) {
+	.header__list {
+		display: none;
+	}
+	.header__nav {
+		justify-content: center;
+		background: red;
+	}
+	h1 {
+	    font-size: 50px;
+	    font-weight: 700;
+	    text-align: center;
+	    line-height: 52px;
+	}
+	.header__above {
+		font-size: 20px;
+	}
+	.header__head:after {
+		width: 100%;
+	}
+}
